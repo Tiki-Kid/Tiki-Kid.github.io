@@ -170,5 +170,11 @@
 
   .resume-image {
     width: 400px;
-    height: 800px;
+    height: 600px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .resume-title {
+    padding-top: 1rem;
   }
