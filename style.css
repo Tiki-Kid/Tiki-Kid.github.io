@@ -38,8 +38,8 @@
     position: relative;
     color: #f0f0f0;
     font-size: 18px;
-   /** padding: 7px 10px;
-    border-radius: 3px;**/
+    padding: 7px 10px;
+    border-radius: 3px;
   } 
   
   a.active,a:hover {
@@ -238,8 +238,8 @@
   }
 
   .resume-image {
-    width: 60vh;
-    height: 80vh;
+    width: 60vw;
+    height: 100vw;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
