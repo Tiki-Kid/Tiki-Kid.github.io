@@ -237,12 +237,15 @@
     flex-direction: column;
   }
 
-  .resume-image {
+  img {
+    width: 40%;
+    height: 100vh;
+    object-position: center;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
 
-  .resume-title {
-    padding-top: 9rem;
+  .resume-section h1 {
+    padding-top: 15rem;
     color: #f0f0f0;
   }
