@@ -72,7 +72,51 @@
     }
   }
 
+  @media only screen and (max-width: 600px) {
+    nav img {
+      left: 6%;
+      top: 20px;
+      width: 130px;
+    }
+    nav ul li a {
+      font-size: 17px;
+    }
+  }
+
   @media (max-width: 860px) {
+    label #btn {
+      display: block;
+    }
+    ul {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background-color: #de3d52;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li {
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a {
+      font-size: 20px;
+    }
+    #check:checked ~ ul {
+      left: 0;
+    }
+    #check:checked ~ label #btn {
+      display: none;
+    }
+    #check:checked ~ label #cancel {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
     label #btn {
       display: block;
     }
@@ -237,6 +281,18 @@
     flex-direction: column;
   }
 
+  @media only screen and (max-width: 600px) {
+    .resume-section {
+      background-color: #303841;
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
   img {
     width: 60%;
     height: 100%;
@@ -244,6 +300,17 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
+  }
+
+  @media only screen and (max-width: 600px) {
+    img {
+      width: 100%;
+      height: 100%;
+      object-position: center;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      display: flex;
+    }
   }
 
   .resume-section h1 {
