@@ -194,6 +194,8 @@
   
   .contact h1 {
     font-size: 2.8rem;
+    justify-content: center;
+    align-items: center;
   }
   
   .contact p {
